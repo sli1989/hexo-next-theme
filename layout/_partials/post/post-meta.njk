@@ -3,8 +3,9 @@
   {%- set time_diff = time(post.date) != time(post.updated) %}
 
   {%- if post.top %}
-    <i class="fa fa-thumb-tack"></i>
-    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+        <i class="fas fa-thumbtack"></i>
+    </span>
   {%- endif %}
           
   {%- if theme.post_meta.created_at %}
