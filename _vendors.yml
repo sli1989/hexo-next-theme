@@ -108,6 +108,10 @@ disqusjs_css:
   version: 1.3.0
   file: dist/disqusjs.css
   integrity: sha256-GxdCIOyfxQ1OBfS99qAIJDoGK1ADuBsxhMTqXG82fAY=
+valine:
+  name: valine
+  version: 1.4.14
+  file: dist/Valine.min.js
 gitalk_js:
   name: gitalk
   version: 1.7.2
